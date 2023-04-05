@@ -1,0 +1,177 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "5ed40817",
+   "metadata": {},
+   "source": [
+    "# MAKİNE ÖĞRENMESİ VE DERİN ÖĞRENME ARASINDAKİ FARKLAR"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "63ba775a",
+   "metadata": {},
+   "source": [
+    "YAPAY ZEKA NEDİR?\n",
+    "\n",
+    "\n",
+    "Eskiden yapay zeka denilince aklımıza sadece robotlar gelirdi. Artık tıptan eğitime, finanstan biyolojiye yapay zekanın girmediği bir alan kalmadı. Aslında yapay zeka fikri 1950'li yıllarda makinelerde insanlar gibi davranabilir mi sorusuyla ortaya çıktı. Son 10 yılda verinin artması, bilgisayar donanımlarının gelişmesi ki bunda oyun sektörünün büyük etkisi var ve yeni algoritmaların bulunması ile yapay zeka durdurulamaz hale geldi. Artık ses tanıma, karar verme, resim algılama ve diller arasında çeviri gibi insansı görevler akıllı bilgisayar programları tarafından yapılabilir hale geldi.\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "f8ebeea3",
+   "metadata": {},
+   "source": [
+    "MAKİNE ÖĞRENMESİ NEDİR?\n",
+    "\n",
+    "Veride saklanan bilgileri çıkarma bilimidir ve yapay zekanın bir alt alanıdır. Makineden beklediğimiz işleri kurallar bütünü halinde ona vermektense makineye nasıl tepki vereceiğini öğretmek işidir. Makine öğrenmesi ile verideki gizli kalıplar bulunur.Finans, eğitim, biyoloji ve tıp gibi alanlarda yaygın şekilde kullanılır. Makine öğrenmesi üç alt alana ayrılır.\n",
+    "\n",
+    "Supervised Learninig\n",
+    "\n",
+    "Unsupervised Learning \n",
+    "\n",
+    "Reinforcement Learninig\n",
+    "\n",
+    "Supervised Learninig de verinin bir etiketi olmalıdır. Nedir bu etiket derseniz bildiğimzi girdilere karşıt gelen çıktıdır. Örneğin rakam verilerinin olduğu bir veriseti düşünelim. Her bir resim üzerindeki rakam verinin çıktısı niteliğindedir. Algoritmaları eğitmek için etiketler kullanılır. Regresyon ve Classification Supervised Learning'in algoritma problemidir. Eğer tahmin etmeye çalıştığımız hedef niteliğimizi numerik bir değer ise Regresyon, kategorik bir değerse sınıflandırma  problemidir. Örneğin bir hastanın kilosu, yaşı , sağlıksal geçmişiyle ile ilgili bilgileri kullanarak kanser olup olmayacağının tahmini sınıflandırma porblemidir.\n",
+    "\n",
+    "\n",
+    "Unsupervised Learning de ise verimizin bir etiketi olmaması halinde analizler gerçekleştiririz. Etiketsiz verilerdeki gizli kalıpları buluruz veya gruplama yöntemlerini kullanırız. (Kümeleme)\n",
+    "\n",
+    "\n",
+    "Reinforcement Learning de ödülü maksimize etme, cezayı minimize etme prensibine dayanır. Örneğin robot gibi öğrenme sistemi çevreyi gözlemler ve eyleme geçer. Bu eylemin sonucunda ödül veya ceza alır. Sistem bu ödül oy sistemini kullanarak en doğru stratejiyi seçer.\n",
+    "\n",
+    "\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "d6f8ad1a",
+   "metadata": {},
+   "source": [
+    "DERİN ÖĞRENME NEDİR?\n",
+    "\n",
+    "Doğa insana her zaman ilham kaynağıdır. Derin öğrenme de insan beyninin taklit edilmesiyle ortaya çıkmıştır. Derin öğrenme bir makine öğrenmesi alt alanı olan Yapay Sinir Ağlarına dayanır. Yapay Sinir Ağlarında bir gizli katman bulunurken Derin Öğrenmede birden fazla gizli katman bulunur. Büyük verilerin analizinde klasik makine öğrenmesi algoritmalarının yetersiz kalmasıyla ortaya çıkmıştır. Ayrıca resim veya video gibi tablo şeklinde olmayan yapılandırılmamış verileri makine öğrenmesi algortimaları analiz etmekte makine öğrenmesi zorlandı."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "b0dcf4d6",
+   "metadata": {},
+   "source": [
+    "FARKLAR\n",
+    "\n",
+    "1. VERİ MİKTARI\n",
+    "\n",
+    "2. DONANIM\n",
+    "\n",
+    "3. ÖZNİTELİK MÜHENDİSLİĞİ\n",
+    "\n",
+    "4. EĞİTİM SÜRESİ \n",
+    "\n",
+    "5. ÖLÇEKLENDİRME\n",
+    "\n",
+    "6. VERİ YAPISI\n",
+    "\n",
+    "7. ALGORİTMALARIN YAPISI\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "1df61297",
+   "metadata": {},
+   "source": [
+    "\n",
+    "1. VERİ MİKTARI\n",
+    "\n",
+    "Makine öğrenmesi algoritmaları küçük veya orta boyutlu verilerle çalışırken Derin öğrenme Algoritmaları için daha büyük veriler gereklidir.\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "77515341",
+   "metadata": {},
+   "source": [
+    "2. DONANIM\n",
+    "\n",
+    "Makine öğrenmesi analizi yapmak için düşük veya orta seviyedeki bilgisayarlar yeterliyken Derin Öğrenmesi Algoritmaları yapabilmek \"Güçlü\" bilgisayarlara ihtiyaç vardır. Özellkile güçlü \"Gpu\" ile matris işlemlere dayanan analizler kolayca yapılır. "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "1cc8cd40",
+   "metadata": {},
+   "source": [
+    "3. ÖZNİTELİK MÜHENDİSLİĞİ\n",
+    "\n",
+    "Yapacağımız anaalizde verinin miktarı kadar verinin kalitesi de önemldir. Makine Öğrenmesi için Öznitelik mühendisliği gerekirken Derin Öğrenmede öznitelik mühendisliğine ihtiyaç yoktur. Bazı öznitelikler biribiyle yakından ilişkili olabilir. Bu ilişki yapacağımız analize zarar verebilir dolayısıyla  makine öğrenmesi analizleri için öznitelik ayarı önemlidir fakat Derin Öğrenme de böyle bir işleme gerek yoktur."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "07298b36",
+   "metadata": {},
+   "source": [
+    "4. EĞİTİM SÜRESİ \n",
+    "\n",
+    "Makine öğrenmesi analizlerinin verilerinin boyutunun orta ve küçük olması kaynaklı analiz süresi kısadır. Fakat Derin Öğrenme Algortimalarının analizi günler hatta haftalar alabilir. "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "412a3b95",
+   "metadata": {},
+   "source": [
+    "5. ÖLÇEKLENDİRME\n",
+    "\n",
+    "Makine öğrenmesi ile daha basit problemler çözülürken Derin Öğrenme algoritmaları ile yüz tanıma, dilden dile çeviri gibi karmaşık problemler çözülebilir.\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "f8032b15",
+   "metadata": {},
+   "source": [
+    "6. VERİ YAPISI\n",
+    "\n",
+    "Makine öğrenmesi ile daha basit problemler çözülürken Derin Öğrenme algoritmaları ile yüz tanıma, dilden dile çeviri gibi karmaşık problemler çözülebilir. Makine Öğrenmesi teknikleri sadece yapısal verileri analiz edebilir. Burada yapısal veriden kast edilen tablosal yani bildiğimiz satır ve sütunlardan oluşan verilerdir. Derin öğrenme algoritmaları ile resim, ses gibi yapısal olmayan verilerde analiz edilebilir. \n",
+    "\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "1371fe65",
+   "metadata": {},
+   "source": [
+    "7. ALGORİTMALARIN YAPISI\n",
+    "\n",
+    "Regresyon gibi Makine Öğrenmesi algoritmalarının nasıl çalıştığı biliniyor modelin katsayıları hakkında yorumlar yapılabilir. Fakat Derin Öğrenme Algoritmaları bir kara kutuya benzetiliyor. Modelin nasıl çalıştığı hakkında kesin bilgilere ulaşılamıyor."
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.10.9"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
